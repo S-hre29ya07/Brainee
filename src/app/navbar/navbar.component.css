@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  order: 1;
+  margin-left: 30px;
+}
+
+.navbar-right {
+  order: 3;
+}
+.navbar-right fa-icon {
+  margin-right: 30px;
+}
+
+.navbar-right button {
+  margin-right: 25px;
+}
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  font-style: italic;
+  color: blueviolet;
+}
+.btn-primary {
+  background-color: blueviolet;
+  border-color: blueviolet;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+}
+.questionclass {
+color: white;
+}
+
+.bellclass{
+  color: white;
+}
